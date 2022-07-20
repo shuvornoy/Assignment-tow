@@ -1,0 +1,442 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* common styles or utilities */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+
+
+
+/* =========Default CSS  Start ===========*/
+a{
+    text-decoration: none;
+    
+}
+li{
+    list-style: none;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+/* =========Default CSS  End ===========*/
+
+
+
+/* ========= Home Start ===========*/
+.home{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: black;
+    border-radius: 20px;
+}
+.datiles{
+    color: #fff;
+    padding: 80px;
+}
+.datiles h1{
+    font-size: 65px;
+}
+.datiles p{
+    font-size: 16px;
+    margin: 20px 0;
+}
+.brazl img{
+    width: 433px;
+    height: 583px;
+    margin: 60px 50px 0 50px;
+    
+}
+.btn button{
+   background: crimson;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+.btn a{
+    color: #fff;
+}
+.btn a span{
+    margin-right: 10px;
+}
+/*================= Home End============*/
+
+.upcomeing{
+    margin: 100px 0;
+}
+.blog{
+    display: grid;
+    float: left;
+    background: #000000e8;
+    padding: 15px;
+    border-radius: 10px;
+}  
+.blog-1 button{
+    background: #fff;
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0
+}
+.blog-1 button a{
+    color: #000;
+    font-size: 18px;
+}
+.blog-2 button{
+    background: #ef1313;
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0
+}
+.blog-2 button a{
+    color: #fff;
+    font-size: 18px;
+}
+
+.live-mach{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.live{
+    margin: 0px 10px 50px 15px;
+    border: 2px solid #e1dede;
+    border-radius: 10px;
+   
+}
+.live img{
+    width: 260px;
+}
+.live button{
+    padding: 5px;
+    margin: 15px;
+}
+.live h4{
+    margin:0 15px;
+}
+.live i{
+    padding: 5px;
+    margin: 15px;
+}
+
+/*============== Upcomeing End =================*/
+/*=============== Footer Start ============*/
+.footer{
+    text-align: center;
+    background: #16122e;
+    padding: 65px;
+   
+}
+.footer h1{
+    color: #fff;
+    margin: 10px 0;
+}
+hr{
+    margin: 60px;
+}
+
+.footer ul{
+  display: flex;
+  justify-content: center;
+  
+}
+.footer ul li{
+    margin: 20px;
+}
+.footer ul li a{
+    color: #fff;
+    font-size: 18px;
+}
+.icon a{
+    font-size: 28px;
+    margin: 10px;
+    color: blue;
+    
+
+}
+.icon i{
+    background: #fffcfc;
+    border-radius: 50%;
+    padding: 10px;
+}
+.icon i:hover{
+    background: blue;
+    color: #fff;
+}
+/*=============== Footer end ============*/
+
+/*=========== mach css Start ================*/
+.bloges{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 20px;
+}
+.bloge{
+   
+    height: 242px;
+    box-shadow: rgb(0 0 0 / 5%) 0px 0px 0px 1px;
+    margin: 0 0px 0 10px;
+    border-radius: 10px;
+}
+.blog-flag{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.blog-flag h3{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 50px;  
+    margin: 20px;    
+}
+.blog-flag img{
+    width: 90px;
+    height: 55px;
+}
+
+.blog-detels h2{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #161616;
+}
+.blog-detels p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #4D4D4D;
+}
+/*=========== mach css end ================*/
+
+/* ============================ Media Queries ========================*/
+
+/* Mobile Devices */
+@media only screen and (max-width:688px) {
+   
+    .container{
+        width: 100%;
+    }
+     .home{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    margin: 20px;
+    padding: 20px 20px 0px 20p
+   }
+   .datiles{
+    padding: 0;
+   }
+   .datiles h1{
+    font-size: 35px;
+   }
+   .datiles p{
+    font-size: 16px;
+   }
+   .brazl img{
+    margin: 20px 0 0 0;
+    width: 80%;
+    height: 94%;
+   }
+   /*===== blog ============*/
+   .upcomeing{
+    display: grid;
+   }
+   .blog{
+   background: none;
+   text-align: center;
+} 
+.live-mach{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 20px;
+}
+.live{
+    margin: 10px 0;
+    border: 2px solid #e1dede;
+    border-radius: 10px;
+   
+}
+.live img{
+    width: 100%;
+}
+main-blog{
+    padding: 20px;
+}
+/*====== Footer =======*/
+.footer{
+    text-align: center;
+    background: #d2cdea;
+   
+   
+}
+.footer h1{
+    color: #e82424;
+    margin: 0;
+}
+hr{
+    margin: 0px;
+}
+
+.footer ul{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+  
+}
+.footer ul li{
+    margin: 20px;
+}
+.footer ul li a{
+    color: #fb3737;
+    font-size: 18px;
+}
+.icon a{
+    font-size: 16px;
+    margin: 10px;
+    color: blue;
+    
+
+}
+.icon i{
+    background: #fffcfc;
+    border-radius: 50%;
+    padding: 10px;
+}
+.icon i:hover{
+    background: blue;
+    color: #fff;
+}
+
+/*======= mach media =========*/
+.bloges{
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+}
+
+
+
+
+
+
+
+/* tablet devices */
+@media only screen and (min-width: 688px) and (max-width:992px) {
+    .container{
+        width: 100%;
+    }
+     .home{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #86e824;
+    margin: 20px;
+   }
+   .datiles{
+    padding: 40px;
+   }
+   .datiles h1{
+    font-size: 40px;
+   }
+   .brazl img{
+    margin: 20px 0 0 0;
+    width: 80%;
+    height: 96%;
+   }
+  
+
+   /*===== blog ============*/
+   .upcomeing{
+    display: grid;
+    margin: 20px;
+   }
+   .blog{
+    background: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+} 
+
+.live-mach{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.live{
+    margin: 20px 0;
+    border: 2px solid #e1dede;
+    border-radius: 10px;
+   
+}
+.live img{
+    width: 100%;
+}
+
+/*====== Footer =======*/
+.footer{
+    text-align: center;
+    background: #d2cdea;
+}
+.footer h1{
+    color: #e82424;
+    margin: 0;
+}
+hr{
+    margin: 0px;
+}
+
+.footer ul{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  
+}
+.footer ul li{
+    margin: 15px;
+}
+.footer ul li a{
+    color: #fb3737;
+    font-size: 12px;
+}
+
+
+
+.icon a{
+    font-size: 16px;
+    margin: 10px;
+    color: blue;
+    
+
+}
+.icon i{
+    background: #fffcfc;
+    border-radius: 50%;
+    padding: 10px;
+}
+.icon i:hover{
+    background: blue;
+    color: #fff;
+}
+/*======= mach media =========*/
+.bloges{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+}
